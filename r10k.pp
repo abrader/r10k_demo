@@ -7,7 +7,8 @@ class { 'r10k':
       'prefix'  => false,
     }
   },
-  purgedirs         => ["${::settings::confdir}/environments"],
+  # Enable the parameter below if you are using an older version of r10k.
+  #purgedirs         => ["${::settings::confdir}/environments"],
   manage_modulepath => true,
   modulepath        => "${::settings::confdir}/environments/\$environment/modules:/opt/puppet/share/puppet/modules",
 }
