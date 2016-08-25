@@ -5,8 +5,8 @@ mod 'puppetlabs/mysql'
 mod 'puppetlabs/ntp'
 
 # Forge + version (intentionally old release)
-mod 'puppetlabs/apache', '1.1.0'
-mod 'nanliu/staging', '1.0.0'
+mod 'puppetlabs/apache', '1.3.0'
+mod 'nanliu/staging', '1.0.6'
 
 # Git repo/syntax
 mod 'plex',
